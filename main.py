@@ -31,4 +31,6 @@ def get_bot_response(paylod:Message):
     res = start_model(request_mess)
 
     return res
-
+if __name__ == "__main__":
+    import uvicorn
+    uvicorn.run(app, host="0.0.0.0", port=8080)
