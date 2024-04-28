@@ -1,0 +1,98 @@
+[
+  {
+    "response_type": "greeting",
+    "user_input": ["hello", "hi", "hey", "hii", "hiii", "helloo", "heloo", "heyy"],
+    "bot_response": "Hey there! Welcome to Biovus Tech! What services can I provide for you?\n\nBlockchain Technologies\nCrypto\nNFT\nIT- Developement and Support\nDigital Marketing\n",
+    "required_words": []
+  },
+  {
+    "response_type": "question",
+    "user_input": ["how", "are", "you"],
+    "bot_response": "I'm great! Thanks for asking.",
+    "required_words": ["how", "are", "you"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["what", "is", "your", "name"],
+    "bot_response": "My name is BOT_VER_2",
+    "required_words": ["your", "name"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["who", "made", "you"],
+    "bot_response": "I was made by a ML aspirant",
+    "required_words": []
+  },
+  {
+    "response_type": "question",
+    "user_input": ["what", "services","services", "can", "have", "you", "provide"],
+    "bot_response": "We provide various services, the majority include\nBlockchain Technologies, Crypto, NFT, IT- Developement and Support, Digital Marketing\nIf you'd want me to ellaborate a service I'm here to help!\nYes or No",
+    "required_words": []
+  },
+    {
+    "response_type": "positive reponse",
+    "user_input": ["yes"],
+    "bot_response": "Which service exactly should I elaborate on?\n\nBlockchain Technologies\nCrypto\nNFT\nIT- Developement and Support\nDigital Marketing\n",
+    "required_words": ["yes"]
+  },
+  {
+    "response_type": "negative response",
+    "user_input": ["no"],
+    "bot_response": "Ok Cool\nWhat more do you wanna explore about us?",
+    "required_words": ["no"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["what", "does", "your", "company", "do"],
+    "bot_response": "Biovus Blockchain technologies is a software service company, we specialize in the field of Fintech and IT services! .",
+    "required_words": ["company", "do"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["what", "is", "your", "company", "specialized","famous", "on"],
+    "bot_response": "Biovus Blockchain technologies is a software service company, we specialize in the field of Fintech and IT services! .",
+    "required_words": ["company", "specialized"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["what", "can", "work", "you", "do"],
+    "bot_response": "I assisst people on this platform guiding for their required resources or services they are seeking in our platform :)",
+    "required_words": []
+  },
+  {
+    "response_type": "information",
+    "user_input": ["blockchain", "technologies"],
+    "bot_response": "\nThe fields we expertise in Blockchain Tech are:\n\n1)Blockchain Development\n2)dApps Development\n3)Multichain Development\n\nIf you'd like to have much more context on this service, please visit the link below :)\n[https://www.biovustechnologies.com/blockchain-solution.php]\n",
+    "required_words": []
+  },
+  {
+    "response_type": "information",
+    "user_input": ["crypto"],
+    "bot_response": "\nThe fields we expertise in crypto are:\n\n1)ERC Token smart\n2)Minable Coin Development\n3)Cryptocurrency Exchange Software\n\nIf you'd like to have much more context on this service, please visit the link below :)\n[https://www.biovustechnologies.com/crypto-development.php]\n",
+    "required_words": ["crypto"]
+  },
+  {
+    "response_type": "information",
+    "user_input": ["nft"],
+    "bot_response": "\nThe fields we expertise in NFT are:\n\n1)NFT Marketplace Design and Development\n2)NFT Smart Contract Development and Audit\n3)NFT Marketplace Support and Maintanance\n4)NFT Development\n\nIf you'd like to have much more context on this service, please visit the link below :)\n[https://www.biovustechnologies.com/NFT.php]\n",
+    "required_words": ["nft"]
+  },
+  {
+    "response_type": "information",
+    "user_input": ["it", "development", "and", "support"],
+    "bot_response": "\nThe fields we expertise in IT- Development and Support are:\n\n1)Application Framework\n2)Document Management\n3)Supply Chain Management\n4)Artificial Intelligence\n\nIf you'd like to have much more context on this service, please visit the link below :)\n[https://www.biovustechnologies.com/IT-services.php]\n",
+    "required_words": ["it"]
+  },
+  {
+    "response_type": "information",
+    "user_input": ["digital", "marketing"],
+    "bot_response": "\nThe services provided in Digital Marketing are:\n\n1)Search Engine Optimisation\n2)Content Marketing\n3)Branding\n4)Mobile Advertising etc...\n\nIf you'd like to have much more context on this service, please visit the link below :)\n[https://www.biovustechnologies.com/digital-marketing.php]\n",
+    "required_words": []
+  },
+  {
+    "response_type": "leaving",
+    "user_input": ["quit", "bye", "byee", "goodbye", "goodbyee", "see you", "thank you"],
+    "bot_response": "Goodbye! Have a great day",
+    "required_words": []
+  }
+]
